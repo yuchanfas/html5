@@ -1,0 +1,113 @@
+@charset "UTF-8";
+html{
+font-size: 0.625px;
+}
+body{
+color: #3c3c3c;
+background-color: #fcfcfa;
+line-height: 1.7; /*行間*/
+font-size: 20px;
+letter-spacing: .1em;/*文字間*/
+
+font-weight: 400;/*フォントの太さ*/
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+li{
+    list-style: none; /*箇条書きの点の形*/
+}
+
+a{
+    color: #3c3c3c;/*リンクの色を変える*/
+    text-decoration: none; /*テキストの棒線*/
+}
+
+.wrapper{
+    margin: auto 5vw;/*左右の余白*/
+}
+.wrapper2{
+    margin: auto 10vw;/*左右の余白*/
+}
+
+h1{
+    margin-bottom: 20px;
+    font-family: 'Kanit', sans-serif;
+    text-align: left;
+    border-bottom: double 5px #f2e5c0;
+    margin-bottom: 20px;
+}
+
+
+section:not(:first-child){ /*セクション同士の間隔*/
+    margin-top: 60px;
+}
+
+header{
+    display: flex;
+    justify-content:  space-between;
+    align-items: center;
+}
+.logo{
+    font-size :30px;
+    font-weight: bold;
+    color: #FFFF;
+    text-transform: uppercase;
+}
+
+.nav ul{
+    display: flex; /*横並び*/
+    justify-content: space-between;
+    width: 900rem;
+}
+.nav ul li{
+    font-size: 40.2rem;
+    font-weight: bold;
+    color: #FFFF;
+    text-transform: uppercase;
+}
+
+.fv{
+    background-image: url(hatu.jpg) ;
+    min-height: 30vh;
+    
+    background-size:cover;/*画面全面に*/
+    background-position: center top;
+    background-repeat:  no-repeat;
+}
+
+/*abutme*/
+
+
+
+
+
+
+/*footer*/
+footer{
+    background-color: #C0E4F2;
+}
+small{
+    display: block;
+    text-align: center;
+    color: rgb(51, 46n, 46);
+    padding-top: 30px;
+}
+
+/*れしぽんシブ*/
+@media(max-whidth:1024px){
+
+}
+/*趣味*/
+
+
+.syasin{
+    margin-top: 30px;
+    width: 640px;/*画像調整*/
+}
+.info{
+    padding-bottom: 20px;
+}
